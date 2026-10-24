@@ -1,0 +1,142 @@
+id,exclude,type,arch,app,res,fs,sfdr,imd,nsd,aclr,sndr,p,node,area,cal,note,by
+# One row per paper. id = IEEE article number (last number in the Xplore URL). Leave a cell empty to keep the automatic value.
+# exclude=1 drops a false positive. type = Nyquist or Oversampling. arch/app take several values separated by ";" (e.g. Current-steering;RF-DAC).
+# Units: fs in S/s; p in W; node in nm; area in mm2; res in bit; sfdr, aclr, sndr in dB; imd in dBc (negative); nsd in dB/Hz (negative). SI suffixes are fine: 10G, 9.4m. Use - to remove a wrong value.
+# Rows below were moved from adc-census/data/annotations.csv on 2026-10-24.
+11544121,,,,,,,,,,,,,22,0.076,,"Abstract extraction: node,area. area scope: unspecified. Review pending: p.",Codex-abstract-2026-10-23
+11570142,,,,,,256000,,,,,89.2,0.00368,180,0.43,,"Abstract extraction: fs,sndr,p,node,area. area scope: unspecified. Review pending: bw.",Codex-abstract-2026-10-23
+11434877,,,,,18,,,,,,,0.00006,65,,,"Abstract extraction: res,p,node.",Codex-abstract-2026-10-23
+11427317,,,,,12,1000000000,,,,,,0.033,28,,,"Abstract extraction: res,fs,p,node,fomw.",Codex-abstract-2026-10-23
+11498708,,,,,12,100000000,,,,,,0.0291,55,1.17,,"Abstract extraction: res,fs,p,node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+11577439,,,,,,,,,,,,,65,0.001723,,"Abstract extraction: node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+11577344,,,,,,,,,,,,0.000275,16,0.026,,"Abstract extraction: p,node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+11577261,,,,,,,,,,,,,180,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+11222999,,,,,,,,,,,,,180,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+11435658,,,,,14,500000000,,,,,,0.01242,40,,,"Abstract extraction: res,fs,p,node.",Codex-abstract-2026-10-23
+11173263,,,,,,,,,,,,,65,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+11148287,,,,,,,,,,,,,28,0.032,,"Abstract extraction: node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+11509636,,,,,,,,,,,,,180,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+11361387,,,,,7,150000000000,,,,,,0.621,5,,,"Abstract extraction: res,fs,p,node.",Codex-abstract-2026-10-23
+11084876,,,,,16,10000000000,,,,,,,28,,,"Abstract extraction: res,fs,node.",Codex-abstract-2026-10-23
+11409093,,,,,,,,,,,,,180,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+11409046,,,,,14,20000000000,,,,,,,,,,"Abstract extraction: res,fs.",Codex-abstract-2026-10-23
+10966013,,,,,,,,,,,87.66,,90,0.067,,"Abstract extraction: sndr,node,area. area scope: chip/die.",Codex-abstract-2026-10-23
+11707707,,,,,10,,,,,,,,,,,"Abstract extraction: res. Review pending: p,node.",Codex-abstract-2026-10-23
+11655929,,,,,4,,,,,,,,,,,"Abstract extraction: res. Review pending: p,node.",Codex-abstract-2026-10-23
+11647057,,,,,7,,,,,,,,,,,Abstract extraction: res. Review pending: node.,Codex-abstract-2026-10-23
+11359106,,,,,8,,,,,,,,22,,,"Abstract extraction: res,node.",Codex-abstract-2026-10-23
+11218868,,,,,7,,,,,,,,,,,"Abstract extraction: res. Review pending: node,fomw,area.",Codex-abstract-2026-10-23
+11213509,,,,,6,10000000000,,,,,,0.031,28,0.014,,"Abstract extraction: res,fs,p,node,area. area scope: unspecified. Review pending: fomw.",Codex-abstract-2026-10-23
+11075168,,,,,7,150000000000,,,,,,0.621,5,,,"Abstract extraction: res,fs,p,node.",Codex-abstract-2026-10-23
+10769052,,,,,,,,,,,,,180,,,"Abstract extraction: node. Review pending: res,fs.",Codex-abstract-2026-10-23
+10802956,,,,,,16000000000,,,,,,,28,,,"Abstract extraction: fs,node.",Codex-abstract-2026-10-23
+10757326,,,,,12,200000000,,,,,,,110,,,"Abstract extraction: res,fs,node. simulation mentioned in abstract. Review pending: p,area.",Codex-abstract-2026-10-23
+10684878,,,,,7,,,,,,,,,,,"Abstract extraction: res. Review pending: sndr,node.",Codex-abstract-2026-10-23
+11222585,,,,,10,2000000000,,,,,,,28,,,"Abstract extraction: res,fs,node. simulation mentioned in abstract.",Codex-abstract-2026-10-23
+10597613,,,,,16,5000000000,,,,,,0.36,,0.42,,"Abstract extraction: res,fs,p,area. area scope: core.",Codex-abstract-2026-10-23
+10643972,,,,,,,,,,,,,180,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+10571831,,,,,,,,,,,,0.000689,180,0.054,,"Abstract extraction: p,node,area. area scope: core. Review pending: foms.",Codex-abstract-2026-10-23
+10719559,,,,,,,,,,,,0.0015,130,,,"Abstract extraction: p,node.",Codex-abstract-2026-10-23
+10719419,,,,,8,,,,,,,,7,0.1,,"Abstract extraction: res,node,area. area scope: unspecified. Review pending: fs.",Codex-abstract-2026-10-23
+10495371,,,,,,,,,,,,,28,,,"Abstract extraction: node. simulation mentioned in abstract. Review pending: fs,sndr.",Codex-abstract-2026-10-23
+10438448,,,,,7,,,,,,,,,,,"Abstract extraction: res. Review pending: node,area.",Codex-abstract-2026-10-23
+10365332,,,,,,,,,,,,0.104,65,,,"Abstract extraction: p,node.",Codex-abstract-2026-10-23
+10631542,,,,,,16000000000,,,,,,0.486,5,0.0046,,"Abstract extraction: fs,p,node,area. area scope: unspecified. Review pending: res.",Codex-abstract-2026-10-23
+10441816,,,,,6,,,,,,,,,,,Abstract extraction: res. Review pending: node.,Codex-abstract-2026-10-23
+10528971,,,,,8,,,,,,,,,,,"Abstract extraction: res. Review pending: fs,node.",Codex-abstract-2026-10-23
+10433893,,,,,14,,,,,,,,,,,Abstract extraction: res. simulation mentioned in abstract.,Codex-abstract-2026-10-23
+10423011,,,,,,,,,,,,,180,0.002211,,"Abstract extraction: node,area. area scope: chip/die. Review pending: res.",Codex-abstract-2026-10-23
+10454558,,,,,7,,,,,,,,,,,Abstract extraction: res.,Codex-abstract-2026-10-23
+10734086,,,,,16,1000000000,,,,,70,0.045,65,0.06,,"Abstract extraction: res,fs,sndr,p,node,fomw,area. area scope: unspecified.",Codex-abstract-2026-10-23
+10418260,,,,,,,,,,,,0.000356,28,0.05,,"Abstract extraction: p,node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+10176358,,,,,,,,,,,,,130,,,Abstract extraction: node. Review pending: res.,Codex-abstract-2026-10-23
+10268801,,,,,,,,,,,,,65,,,Abstract extraction: node. Review pending: p.,Codex-abstract-2026-10-23
+10185301,,,,,10,,,,,,,,,,,Abstract extraction: res.,Codex-abstract-2026-10-23
+10185161,,,,,,,,,,,,0.000125,,,,Abstract extraction: p.,Codex-abstract-2026-10-23
+10048527,,,,,16,4000000000,,,,,,,65,,,"Abstract extraction: res,fs,node.",Codex-abstract-2026-10-23
+10012057,,,,,7,,,,,,,,180,,,"Abstract extraction: res,node.",Codex-abstract-2026-10-23
+9485113,,,,,14,1000000000,,,,,,,90,,,"Abstract extraction: res,fs,node.",Codex-abstract-2026-10-23
+9537159,,,,,7,,,,,,,,,,,Abstract extraction: res. Review pending: node.,Codex-abstract-2026-10-23
+9537166,,,,,,16000000000,,,,,,,16,,,"Abstract extraction: fs,bw,node.",Codex-abstract-2026-10-23
+9438957,,,,,14,10000000000,,,,,,,28,,,"Abstract extraction: res,fs,node.",Codex-abstract-2026-10-23
+9209107,,,,,10,,,,,,,,,,,Abstract extraction: res. Review pending: node.,Codex-abstract-2026-10-23
+9098055,,,,,,10000000000,,,,,,0.162,28,,,"Abstract extraction: fs,p,node.",Codex-abstract-2026-10-23
+8862957,,,,,,1200000000,,,,,76.6,0.0292,28,0.085,,"Abstract extraction: fs,bw,sndr,p,node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+8850049,,,,,,,,,,,,0.000031,,,,Abstract extraction: p.,Codex-abstract-2026-10-23
+8798751,,,,,,,,,,,81.3,,,,,"Abstract extraction: sndr. Review pending: bw,p.",Codex-abstract-2026-10-23
+8712569,,,,,,,,,,,,,,,,Abstract extraction: bw. Review pending: sndr.,Codex-abstract-2026-10-23
+8254342,,,,,,500000000,,,,,,,,,,Abstract extraction: fs.,Codex-abstract-2026-10-23
+8103928,,,,,,,,,,,,1.91,130,6.25,,"Abstract extraction: p,node,area. area scope: unspecified. simulation mentioned in abstract.",Codex-abstract-2026-10-23
+7547318,,,,,12,2000000000,,,,,,,65,,,"Abstract extraction: res,fs,node. simulation mentioned in abstract.",Codex-abstract-2026-10-23
+7562577,,,,,6,,,,,,,,,,,"Abstract extraction: res. simulation mentioned in abstract. Review pending: fs,bw,node.",Codex-abstract-2026-10-23
+7470237,,,,,,,,,,,,,65,,,"Abstract extraction: node. Review pending: res,fs.",Codex-abstract-2026-10-23
+7438790,,,,,,,,,,,,,130,0.563,,"Abstract extraction: node,area. area scope: unspecified. Review pending: res,bw.",Codex-abstract-2026-10-23
+7019002,,,,,9,11000000000,,,,,,0.11,,0.04,,"Abstract extraction: res,fs,p,area. area scope: core.",Codex-abstract-2026-10-23
+6935020,,,,,,4600000000,,,,,,,,,,Abstract extraction: fs.,Codex-abstract-2026-10-23
+6917224,,,,,,,,,,,,0.13,55,0.1,,"Abstract extraction: p,node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+6848852,,,,,14,500000000,,,,,,0.299,130,,,"Abstract extraction: res,fs,p,node.",Codex-abstract-2026-10-23
+6811194,,,,,,,,,,,,,45,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+6816090,,,,,10,,,,,,,0.476,45,,,"Abstract extraction: res,p,node. Review pending: fs.",Codex-abstract-2026-10-23
+6736139,,,,,12,,,,,,,,40,,,"Abstract extraction: res,node. Review pending: fs,bw,p,area.",Codex-abstract-2026-10-23
+6587828,,,,,20,,,,,,,,600,,,"Abstract extraction: res,node.",Codex-abstract-2026-10-23
+6518204,,,,,13,1330000000,,,,,,,,,,"Abstract extraction: res,fs,bw. Review pending: node.",Codex-abstract-2026-10-23
+6495724,,,,,,,,,,,,,40,,,"Abstract extraction: node. Review pending: bw,p,area.",Codex-abstract-2026-10-23
+6518202,,,,,10,,,,,,,,,,,Abstract extraction: res. Review pending: node.,Codex-abstract-2026-10-23
+6506130,,,,,,,,,,,,,45,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+6311444,,,,,,,,,,,,,90,,,Abstract extraction: node. simulation mentioned in abstract.,Codex-abstract-2026-10-23
+6222360,,,,,12,,,,,,,,55,,,"Abstract extraction: res,node. Review pending: fin.",Codex-abstract-2026-10-23
+6059519,,,,,10,500000000,,,,,,,180,,,"Abstract extraction: res,fs,node.",Codex-abstract-2026-10-23
+6032045,,,,,,,,,,,,,45,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+6021346,,,,,,1250000000,,,,,,0.128,90,,,"Abstract extraction: fs,p,node. Review pending: fin.",Codex-abstract-2026-10-23
+5783315,,,,,10,,,,,,,,65,,,"Abstract extraction: res,node.",Codex-abstract-2026-10-23
+6012546,,,,,6,28000000000,,,,,,,,,,"Abstract extraction: res,fs,fomw. Review pending: p.",Codex-abstract-2026-10-23
+5751593,,,,,14,200000000,,,,,,,140,,,"Abstract extraction: res,fs,node.",Codex-abstract-2026-10-23
+5680612,,,,,8,150000000,,,,,37,,350,,,"Abstract extraction: res,fs,sndr,node.",Codex-abstract-2026-10-23
+5556430,,,,,11,,,,,,,,,,,"Abstract extraction: res. Review pending: p,node,area.",Codex-abstract-2026-10-23
+5518486,,,,,,,,,,,,,,,,Abstract extraction: bw.,Codex-abstract-2026-10-23
+5492323,,,,,6,,,,,,,,,,,Abstract extraction: res.,Codex-abstract-2026-10-23
+5453299,,,,,4,900,,,,,,,,,,"Abstract extraction: res,fs. Review pending: p.",Codex-abstract-2026-10-23
+5405153,,,,,,,,,,,,4.8,,,,Abstract extraction: p. Review pending: area.,Codex-abstract-2026-10-23
+4806048,,,,,14,,,,,,,,,,,Abstract extraction: res. simulation mentioned in abstract.,Codex-abstract-2026-10-23
+5342368,,,,,12,,,,,,,,65,,,"Abstract extraction: res,node. Review pending: fs,p.",Codex-abstract-2026-10-23
+5342341,,,,,10,,,,,,,,,,,Abstract extraction: res.,Codex-abstract-2026-10-23
+4738422,,,,,12,122880000,,,,,,,65,,,"Abstract extraction: res,fs,node. Review pending: sndr,area.",Codex-abstract-2026-10-23
+5226696,,,,,9,2000000,,,,,,,500,0.042,,"Abstract extraction: res,fs,node,area. area scope: chip/die.",Codex-abstract-2026-10-23
+4663681,,,,,12,,,,,,,,180,,,"Abstract extraction: res,node.",Codex-abstract-2026-10-23
+4684641,,,,,,,,,,,,,180,0.55,,"Abstract extraction: node,area. area scope: unspecified. Review pending: p.",Codex-abstract-2026-10-23
+4685438,,,,,6,,,,,,,0.029,130,,,"Abstract extraction: res,p,node. Review pending: fs.",Codex-abstract-2026-10-23
+4472351,,,,,12,,,,,,,,350,,,"Abstract extraction: res,node. Review pending: fs.",Codex-abstract-2026-10-23
+4626006,,,,,14,100000000,,,,,,,180,,,"Abstract extraction: res,fs,node.",Codex-abstract-2026-10-23
+4437483,,,,,16,2000000,,,,,,,180,,,"Abstract extraction: res,fs,node.",Codex-abstract-2026-10-23
+4494668,,,,,,12000000000,,,,,41,0.19,90,,,"Abstract extraction: fs,sndr,p,node. Review pending: res.",Codex-abstract-2026-10-23
+4433427,,,,,10,,,,,,,,500,0.208,,"Abstract extraction: res,node,area. area scope: chip/die.",Codex-abstract-2026-10-23
+4362086,,,,,14,,,,,,,,180,,,"Abstract extraction: res,node. Review pending: fs,area.",Codex-abstract-2026-10-23
+4277871,,,,,14,200000000,,,,,,,180,,,"Abstract extraction: res,fs,node. Review pending: p.",Codex-abstract-2026-10-23
+4114765,,,,,12,160000000,,,,,,,90,,,"Abstract extraction: res,fs,node. Review pending: sndr,area.",Codex-abstract-2026-10-23
+1703683,,,,,,,,,,,,9.45,,,,Abstract extraction: p.,Codex-abstract-2026-10-23
+1683889,,,,,8,,,,,,,,130,0.8,,"Abstract extraction: res,bw,node,area. area scope: chip/die. Review pending: p.",Codex-abstract-2026-10-23
+1610631,,,,,,200000000,,,,,,,180,,,"Abstract extraction: fs,bw,node.",Codex-abstract-2026-10-23
+1610628,,,,,12,300000000,,,,,,0.2,350,,,"Abstract extraction: res,fs,p,node. Review pending: area.",Codex-abstract-2026-10-23
+1583796,,,,,,250000000,,,,,,0.004,180,,,"Abstract extraction: fs,p,node. Review pending: area.",Codex-abstract-2026-10-23
+1546222,,,,,12,1600000000,,,,,,1.2,,,,"Abstract extraction: res,fs,bw,p.",Codex-abstract-2026-10-23
+1528680,,,,,10,,,,,,,,350,,,"Abstract extraction: res,node. simulation mentioned in abstract.",Codex-abstract-2026-10-23
+1458992,,,,,,,,,,,,0.00725,130,0.22,,"Abstract extraction: p,node,area. area scope: unspecified. p is per channel/column as reported.",Codex-abstract-2026-10-23
+1362819,,,,,,,,,,,,,180,,,"Abstract extraction: bw,node.",Codex-abstract-2026-10-23
+1327743,,,,,,,,,,,,,180,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+1308581,,,,,6,250000000,,,,,,,,,,"Abstract extraction: res,fs.",Codex-abstract-2026-10-23
+1259504,,,,,14,,,,,,,,130,2.9,,"Abstract extraction: res,node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+1259503,,,,,14,,,,,,,,,,,Abstract extraction: res.,Codex-abstract-2026-10-23
+1253851,,,,,14,100000000,,,,,,0.0167,130,,,"Abstract extraction: res,fs,p,node. Review pending: area.",Codex-abstract-2026-10-23
+1233797,,,,,8,,,,,,,0.0545,350,,,"Abstract extraction: res,p,node.",Codex-abstract-2026-10-23
+1233755,,,,,,,,,,,,,1200,,,Abstract extraction: node.,Codex-abstract-2026-10-23
+1196218,,,,,14,,,,,,,,180,0.44,,"Abstract extraction: res,node,area. area scope: chip/die. Review pending: fs,p.",Codex-abstract-2026-10-23
+1035949,,,,,11,,,,,,,,800,,,"Abstract extraction: res,node. Review pending: fs.",Codex-abstract-2026-10-23
+1035947,,,,,,,,,,,,0.24,250,1.4,,"Abstract extraction: p,node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+1015679,,,,,,,,,,,86,0.028,,,,"Abstract extraction: sndr,p. p is per channel/column as reported.",Codex-abstract-2026-10-23
+890297,,,,,14,,,,,,,,350,,,"Abstract extraction: res,node. Review pending: fs,p.",Codex-abstract-2026-10-23
+808898,,,,,,,,,,,,0.018,600,3.6,,"Abstract extraction: p,node,area. area scope: chip/die.",Codex-abstract-2026-10-23
+808897,,,,,14,,,,,,,,800,3.91,,"Abstract extraction: res,node,area. area scope: chip/die. Review pending: fs,p,fin.",Codex-abstract-2026-10-23
+808896,,,,,14,150000000,,,,,,,500,13.1,,"Abstract extraction: res,fs,node,area. area scope: chip/die. Review pending: p,fin.",Codex-abstract-2026-10-23
+735536,,,,,,,,,,,,,500,3.2,,"Abstract extraction: node,area. area scope: chip/die. Review pending: res,fs,p.",Codex-abstract-2026-10-23
+735535,,,,,10,500000000,,,,,,0.125,350,0.6,,"Abstract extraction: res,fs,p,node,area. area scope: unspecified.",Codex-abstract-2026-10-23
+735526,,,,,,,,,,,,,,9.1,,"Abstract extraction: bw,area. area scope: chip/die.",Codex-abstract-2026-10-23
