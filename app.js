@@ -901,7 +901,7 @@
       if (ALL.length) {
         $("lede").innerHTML = "<strong>" + nC.toLocaleString() + " DAC papers</strong> from " + venues +
           " IEEE circuits venues, " + esc(fmtDate(META.coverage_from)) + " to " + esc(fmtDate(META.coverage_to)) +
-          ". Updated automatically on the 15th of every month; last update " + esc(META.updated || "") + (META.last_run_new ? ", with " + META.last_run_new + " papers added in the latest update." : ".");
+          ". Updated automatically on the 15th of every month; last update " + esc(META.updated || "") + (META.last_run_new ? ", with " + META.last_run_new + (META.last_run_new === 1 ? " paper" : " papers") + " added in the latest update." : ".");
       } else {
         $("lede").textContent = "A monthly index of digital-to-analog converter papers in ISSCC, VLSI, JSSC, CICC, ESSCIRC, A-SSCC, SSC-L, TCAS-I/II and TVLSI.";
       }
