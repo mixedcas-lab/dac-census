@@ -11,11 +11,12 @@ I = re.IGNORECASE
 # ---------------------------------------------------------------- relevance
 DAC_PAT = re.compile(r"\bDACs?\b|digital[- ]to[- ]analog|\bD/A\b|\bRF[- ]?DACs?\b|digital[- ]to[- ]RF|direct[- ]digital[- ]RF", I)
 # an ADC (or a modulator/quantizer) whose internal or feedback DAC is in the title is an ADC paper
-ADC_HOST = re.compile(r"\bADCs?\b|analog[- ]to[- ]digital|\bA/D\b|modulators?\b|\b(?:CT|DT)?[- ]?(?:DSMs?|SDMs?)\b|"
-                      r"\bSAR\b(?![- ]?DAC)|successive[- ]approximation|\bCIM\b|in[- ]memory|neural|\bPLLs?\b|synthesi[sz]er|"
-                      r"\bDDFS\b|\bDDS\b|regulator|\bLDO\b|DC[-–]DC|sensor", I)
+ADC_HOST = re.compile(r"\bADCs?\b|analog[- ]to[- ]digital|\bA/D\b|(?:ΔΣ|Σ\s?Δ|delta[- –]sigma|sigma[- –]delta|noise[- ]shaping|\bDSM|\bSDM)\s*modulators?|"
+                      r"\b(?:CT|DT)?[- ]?(?:DSMs?|SDMs?)\b|\bSAR\b(?![- ]?DAC)|successive[- ]approximation|\bCIM\b|in[- ]memory|"
+                      r"\bPLLs?\b|frequency synthesi[sz]er(?! with)|regulator|\bLDO\b|DC[-–]DC|sensor", I)
 # a transmitter / link / SoC built around a DAC: the numbers are the system's
 HOST = re.compile(r"\b(?:transmitters?|\bTX\b|transceivers?|front[- ]ends?|SoCs?|radios?|radars?|links?|systems?|"
+                  r"direct[- ]digital (?:frequency )?synthesi[sz]ers?|DDFS|DDS|waveform (?:generators?|synthesi[sz]ers?)|AWG|"
                   r"drivers?|power amplifiers?|\bPAs?\b|wireline)\b", I)
 NON_PAPER = re.compile(
     r"^(front cover|back cover|table of contents|contents|author index|index|"
@@ -28,6 +29,8 @@ def relevance(title, abstract):
     """Return 'core', 'related' or None."""
     t = title or ""
     m = DAC_PAT.search(t)
+    if m and re.search(r"direct[- ]digital (?:frequency )?synthes|\bDDFS\b|\bDDS\b", t, I):
+        return "related"                       # a DDFS built around its DAC: the numbers are the synthesizer's
     if m:
         if ADC_HOST.search(t) and not re.search(r"(?:ΔΣ|delta[- ]sigma|sigma[- ]delta|oversampling|noise[- ]shap\w*)\s+(?:DAC|D/A)", t, I):
             return None

@@ -1,5 +1,5 @@
 {
- "_comment": "since_year: first publication year shown. cache: the adc-census record cache on this server (overridable with $DAC_CENSUS_CACHE or --cache). venues: regex on the IEEE publication_title that assigns the venue; IEEE Access is left out because adc-census only fetches its converter papers.",
+ "_comment": "since_year: first publication year shown. cache: the adc-census record cache on this server (overridable with $DAC_CENSUS_CACHE or --cache). venues: regex on the IEEE publication_title that assigns the venue; IEEE Access is included: adc-census fetches its ADC/DAC keyword hits.",
  "since_year": 1997,
  "cache": "~/adc-census/cache/raw",
  "venues": [
@@ -42,6 +42,10 @@
   {
    "name": "CICC",
    "match": "custom integrated circuits conference|\\bcicc\\b"
+  },
+  {
+   "name": "Access",
+   "match": "^ieee access$"
   }
  ]
 }

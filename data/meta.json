@@ -4,22 +4,23 @@
  "updated": "2026-10-24",
  "coverage_from": "1997-01",
  "coverage_to": "2026-10",
- "total": 544,
- "core": 358,
+ "total": 612,
+ "core": 386,
  "by_venue": {
-  "TCAS-I": 68,
-  "TVLSI": 30,
-  "JSSC": 93,
+  "TCAS-I": 67,
+  "TVLSI": 31,
+  "JSSC": 108,
   "VLSI": 5,
   "CICC": 5,
-  "ISSCC": 64,
+  "ISSCC": 70,
   "SSC-L": 10,
-  "TCAS-II": 77,
-  "ESSCIRC": 6
+  "TCAS-II": 78,
+  "ESSCIRC": 6,
+  "Access": 6
  },
  "by_type": {
-  "Nyquist": 273,
-  "Oversampling": 85
+  "Nyquist": 293,
+  "Oversampling": 93
  },
- "last_run_new": 0
+ "last_run_new": 5
 }
