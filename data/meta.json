@@ -1,26 +1,27 @@
 {
  "title": "DAC Census",
  "source": "IEEE Xplore API (records collected by adc-census)",
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "coverage_from": "1997-01",
  "coverage_to": "2026-10",
- "total": 612,
- "core": 386,
+ "total": 855,
+ "core": 527,
  "by_venue": {
   "TCAS-I": 67,
   "TVLSI": 31,
   "JSSC": 108,
-  "VLSI": 5,
-  "CICC": 5,
-  "ISSCC": 70,
+  "VLSI": 38,
+  "CICC": 47,
+  "ISSCC": 81,
   "SSC-L": 10,
   "TCAS-II": 78,
-  "ESSCIRC": 6,
-  "Access": 6
+  "ESSCIRC": 39,
+  "Access": 14,
+  "A-SSCC": 14
  },
  "by_type": {
-  "Nyquist": 293,
-  "Oversampling": 93
+  "Nyquist": 406,
+  "Oversampling": 121
  },
  "last_run_new": 0
 }
